@@ -1,0 +1,4 @@
+com/teamsync/courseservice/model/Course.class
+com/teamsync/courseservice/Main.class
+com/teamsync/courseservice/dao/CourseDAO.class
+com/teamsync/courseservice/resource/CourseResource.class

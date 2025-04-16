@@ -2,10 +2,12 @@ package com.teamsync.courseservice.model;
 
 public class Course {
     private int courseId;
-    private int teamSize;
+    private String courseName;
+    private Integer teamSize;
 
-    public Course(int courseId, int teamSize) {
+    public Course(int courseId, String courseName, int teamSize) {
         this.courseId = courseId;
+        this.courseName = courseName;
         this.teamSize = teamSize;
     }
 
@@ -17,7 +19,7 @@ public class Course {
         this.courseId = courseId;
     }
 
-    public int getTeamSize() {
+    public Integer getTeamSize() {
         return teamSize;
     }
 
@@ -25,11 +27,11 @@ public class Course {
         this.teamSize = teamSize;
     }
 
-    @Override
-    public String toString() {
-        return "Course{" +
-                "courseId=" + courseId +
-                ", teamSize=" + teamSize +
-                '}';
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
     }
 }

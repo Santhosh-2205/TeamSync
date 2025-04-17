@@ -1,7 +1,0 @@
-com/teamsync/taskservice/resource/TaskResource.class
-com/teamsync/taskservice/util/JwtUtil.class
-com/teamsync/taskservice/CorsConfig.class
-com/teamsync/taskservice/Main.class
-com/teamsync/taskservice/model/Task.class
-com/teamsync/taskservice/CorsConfig$1.class
-com/teamsync/taskservice/dao/TaskDAO.class
